@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Title" fontName="Times New Roman" fontSize="50" isBold="true" pdfFontName="Times-Bold"/>
+	<style name="SubTitle" forecolor="#736343" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<style name="Row" mode="Transparent">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+			<style backcolor="#E6DAC3"/>
+		</conditionalStyle>
+	</style>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     tb_pembelian.`id_pembelian` AS tb_pembelian_id_pembelian,
+     tb_pembelian.`Tanggal` AS tb_pembelian_Tanggal,
+     tb_pembelian.`id_user` AS tb_pembelian_id_user,
+     tb_pembelian.`id_supplier` AS tb_pembelian_id_supplier,
+     tb_pembelian.`kd_obat` AS tb_pembelian_kd_obat,
+     tb_pembelian.`harga_beli` AS tb_pembelian_harga_beli,
+     tb_pembelian.`jumlah` AS tb_pembelian_jumlah,
+     tb_pembelian.`total_harga` AS tb_pembelian_total_harga,
+     tb_barang.`kd_obat` AS tb_barang_kd_obat,
+     tb_barang.`nama_obat` AS tb_barang_nama_obat,
+     tb_barang.`jenis` AS tb_barang_jenis,
+     tb_barang.`satuan` AS tb_barang_satuan,
+     tb_barang.`stok` AS tb_barang_stok,
+     tb_barang.`harga_beli` AS tb_barang_harga_beli,
+     tb_barang.`harga_jual` AS tb_barang_harga_jual,
+     tb_supplier.`id_supplier` AS tb_supplier_id_supplier,
+     tb_supplier.`nama_pt` AS tb_supplier_nama_pt,
+     tb_supplier.`alamat` AS tb_supplier_alamat,
+     tb_supplier.`email` AS tb_supplier_email,
+     tb_supplier.`no_tlp` AS tb_supplier_no_tlp,
+     tb_user.`id_user` AS tb_user_id_user,
+     tb_user.`Username` AS tb_user_Username,
+     tb_user.`Password` AS tb_user_Password,
+     tb_user.`Level` AS tb_user_Level,
+     tb_karyawan.`id_karyawan` AS tb_karyawan_id_karyawan,
+     tb_karyawan.`user` AS tb_karyawan_user,
+     tb_karyawan.`nama_karyawan` AS tb_karyawan_nama_karyawan,
+     tb_karyawan.`JK` AS tb_karyawan_JK,
+     tb_karyawan.`email` AS tb_karyawan_email,
+     tb_karyawan.`status` AS tb_karyawan_status,
+     tb_karyawan.`no_tlp` AS tb_karyawan_no_tlp,
+     tb_karyawan.`kewarganegaraan` AS tb_karyawan_kewarganegaraan,
+     tb_karyawan.`pendidikan` AS tb_karyawan_pendidikan,
+     tb_karyawan.`alamat` AS tb_karyawan_alamat,
+     tb_karyawan.`gaji_pokok` AS tb_karyawan_gaji_pokok,
+     tb_satuan.`id_satuan` AS tb_satuan_id_satuan,
+     tb_satuan.`satuan` AS tb_satuan_satuan,
+     tb_jenis.`id_jenis` AS tb_jenis_id_jenis,
+     tb_jenis.`jenis` AS tb_jenis_jenis
+FROM
+     `tb_barang` tb_barang INNER JOIN `tb_pembelian` tb_pembelian ON tb_barang.`kd_obat` = tb_pembelian.`kd_obat`
+     INNER JOIN `tb_supplier` tb_supplier ON tb_pembelian.`id_supplier` = tb_supplier.`id_supplier`
+     INNER JOIN `tb_user` tb_user ON tb_pembelian.`id_user` = tb_user.`id_user`
+     INNER JOIN `tb_karyawan` tb_karyawan ON tb_user.`id_user` = tb_karyawan.`user`
+     INNER JOIN `tb_satuan` tb_satuan ON tb_barang.`satuan` = tb_satuan.`id_satuan`
+     INNER JOIN `tb_jenis` tb_jenis ON tb_barang.`jenis` = tb_jenis.`id_jenis`]]>
+	</queryString>
+	<field name="tb_pembelian_id_pembelian" class="java.lang.String"/>
+	<field name="tb_pembelian_Tanggal" class="java.sql.Date"/>
+	<field name="tb_user_Username" class="java.lang.String"/>
+	<field name="tb_karyawan_nama_karyawan" class="java.lang.String"/>
+	<field name="tb_supplier_nama_pt" class="java.lang.String"/>
+	<field name="tb_barang_nama_obat" class="java.lang.String"/>
+	<field name="tb_jenis_jenis" class="java.lang.String"/>
+	<field name="tb_satuan_satuan" class="java.lang.String"/>
+	<field name="tb_pembelian_harga_beli" class="java.lang.String"/>
+	<field name="tb_pembelian_jumlah" class="java.lang.String"/>
+	<field name="tb_pembelian_total_harga" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="136" splitType="Stretch">
+			<image>
+				<reportElement x="125" y="0" width="73" height="84"/>
+				<imageExpression><![CDATA["farmasi.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement style="Title" x="198" y="0" width="378" height="62"/>
+				<textElement verticalAlignment="Middle">
+					<font pdfFontName="Times-Roman"/>
+				</textElement>
+				<text><![CDATA[Apotek Guardian]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="SubTitle" x="303" y="62" width="235" height="22"/>
+				<textElement>
+					<font fontName="Times New Roman" pdfFontName="Times-Roman"/>
+				</textElement>
+				<text><![CDATA[Laporan Pembelian Barang]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="16" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="15" width="802" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement style="Column header" x="0" y="0" width="72" height="15" forecolor="#736343"/>
+				<textElement/>
+				<text><![CDATA[Kode Pembelian]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="72" y="0" width="72" height="15" forecolor="#736343"/>
+				<textElement/>
+				<text><![CDATA[Tanggal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="144" y="0" width="72" height="15" forecolor="#736343"/>
+				<textElement/>
+				<text><![CDATA[User]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="216" y="0" width="72" height="15" forecolor="#736343"/>
+				<textElement/>
+				<text><![CDATA[Nama Karyawan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="288" y="0" width="72" height="15" forecolor="#736343"/>
+				<textElement/>
+				<text><![CDATA[Supplier]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="360" y="0" width="72" height="15" forecolor="#736343"/>
+				<textElement/>
+				<text><![CDATA[Nama Obat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="432" y="0" width="72" height="15" forecolor="#736343"/>
+				<textElement/>
+				<text><![CDATA[Jenis Obat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="504" y="0" width="72" height="15" forecolor="#736343"/>
+				<textElement/>
+				<text><![CDATA[Satuan Obat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="576" y="0" width="72" height="15" forecolor="#736343"/>
+				<textElement/>
+				<text><![CDATA[Harga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="648" y="0" width="72" height="15" forecolor="#736343"/>
+				<textElement/>
+				<text><![CDATA[Qty]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="720" y="0" width="72" height="15" forecolor="#736343"/>
+				<textElement/>
+				<text><![CDATA[Total Harga]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="15" splitType="Stretch">
+			<frame>
+				<reportElement style="Row" mode="Opaque" x="0" y="0" width="802" height="15"/>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="0" y="0" width="72" height="15"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{tb_pembelian_id_pembelian}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="72" y="0" width="72" height="15"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{tb_pembelian_Tanggal}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="144" y="0" width="72" height="15"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{tb_user_Username}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="216" y="0" width="72" height="15"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{tb_karyawan_nama_karyawan}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="288" y="0" width="72" height="15"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{tb_supplier_nama_pt}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="360" y="0" width="72" height="15"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{tb_barang_nama_obat}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="432" y="0" width="72" height="15"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{tb_jenis_jenis}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="504" y="0" width="72" height="15"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{tb_satuan_satuan}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="576" y="0" width="72" height="15"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{tb_pembelian_harga_beli}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="648" y="0" width="72" height="15"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{tb_pembelian_jumlah}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="720" y="0" width="72" height="15"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{tb_pembelian_total_harga}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="6" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="3" width="802" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="25" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="-21" y="1" width="843" height="24" forecolor="#D0B48E" backcolor="#F2EBDF"/>
+				<textField evaluationTime="Report">
+					<reportElement style="Column header" x="783" y="1" width="40" height="20" forecolor="#736343"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Column header" x="703" y="1" width="80" height="20" forecolor="#736343"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+				</textField>
+				<textField pattern="EEEEE dd MMMMM yyyy">
+					<reportElement style="Column header" x="22" y="1" width="197" height="20" forecolor="#736343"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

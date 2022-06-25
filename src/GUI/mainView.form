@@ -60,7 +60,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" alignment="0" pref="511" max="32767" attributes="0"/>
+          <Component id="jPanel1" alignment="0" pref="583" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -99,19 +99,19 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace pref="176" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
                           <Component id="jPanel11" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
+                          <EmptySpace pref="127" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace pref="98" max="32767" attributes="0"/>
+                          <EmptySpace pref="106" max="32767" attributes="0"/>
                           <Component id="jPanel11" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -119,6 +119,9 @@
               <SubComponents>
                 <Container class="javax.swing.JPanel" name="jPanel11">
                   <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
                         <BevelBorder/>
@@ -132,33 +135,37 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="225" max="-2" attributes="0"/>
-                              <Component id="jLabel71" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="0" pref="233" max="32767" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace max="32767" attributes="0"/>
-                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                  <Component id="txtPassword" alignment="1" max="32767" attributes="0"/>
-                                  <Component id="jLabel72" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="txtUser" alignment="1" pref="207" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace pref="261" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
-                                      <Component id="ButtonLogin" min="-2" pref="108" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                                      <Component id="ButtonLogin" min="-2" pref="123" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="293" max="-2" attributes="0"/>
                                   </Group>
-                                  <Component id="jLabel73" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel71" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="260" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
-                              <EmptySpace min="-2" pref="247" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="289" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtPassword" min="-2" pref="207" max="-2" attributes="0"/>
+                                  <Component id="jLabel73" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtUser" min="-2" pref="207" max="-2" attributes="0"/>
+                                  <Component id="jLabel72" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                               <Component id="jLabel71" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                               <Component id="jLabel72" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="txtUser" min="-2" pref="39" max="-2" attributes="0"/>
@@ -166,9 +173,9 @@
                               <Component id="jLabel73" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="txtPassword" min="-2" pref="40" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                              <Component id="ButtonLogin" min="-2" pref="36" max="-2" attributes="0"/>
-                              <EmptySpace pref="44" max="32767" attributes="0"/>
+                              <EmptySpace pref="34" max="32767" attributes="0"/>
+                              <Component id="ButtonLogin" min="-2" pref="48" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -205,6 +212,9 @@
                     </Component>
                     <Component class="javax.swing.JButton" name="ButtonLogin">
                       <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="57" green="a0" red="de" type="rgb"/>
+                        </Property>
                         <Property name="text" type="java.lang.String" value="LOGIN"/>
                       </Properties>
                       <Events>
@@ -258,22 +268,31 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                           <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jLabel62" min="-2" pref="43" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel7" min="-2" pref="380" max="-2" attributes="0"/>
-                          <EmptySpace pref="499" max="32767" attributes="0"/>
+                          <EmptySpace pref="539" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="jLabel1" min="-2" pref="44" max="-2" attributes="0"/>
-                          <EmptySpace pref="22" max="32767" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel1" min="-2" pref="44" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="11" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabel62" min="-2" pref="53" max="-2" attributes="0"/>
+                                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -287,6 +306,13 @@
                       <Font name="Bahnschrift" size="36" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="APOTEK GUARDIAN"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel62">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/GUI/farmasi.png"/>
+                    </Property>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -303,7 +329,7 @@
                 <Container class="javax.swing.JPanel" name="Home">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                      <Color blue="b0" green="d8" red="e0" type="rgb"/>
                     </Property>
                   </Properties>
                   <Constraints>
@@ -333,7 +359,7 @@
                           <Component id="menuHome" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                               <Component id="labelGambar" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
@@ -342,6 +368,11 @@
                   </Layout>
                   <SubComponents>
                     <Container class="javax.swing.JPanel" name="menuHome">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="57" green="a0" red="de" type="rgb"/>
+                        </Property>
+                      </Properties>
 
                       <Layout>
                         <DimensionLayout dim="0">
@@ -381,7 +412,7 @@
                                   <Component id="buttonSupplier_home" min="-2" pref="39" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                                   <Component id="buttonUser_home" min="-2" pref="39" max="-2" attributes="0"/>
-                                  <EmptySpace pref="64" max="32767" attributes="0"/>
+                                  <EmptySpace pref="47" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -389,6 +420,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="buttonHome_home">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Home"/>
                           </Properties>
                           <Events>
@@ -397,6 +431,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonBrg_home">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Data Barang"/>
                           </Properties>
                           <Events>
@@ -405,6 +442,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonKyw_home">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Data Karyawan"/>
                           </Properties>
                           <Events>
@@ -413,6 +453,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonKasir_home">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Kasir"/>
                           </Properties>
                           <Events>
@@ -421,6 +464,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonLap_home">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Laporan "/>
                           </Properties>
                           <Events>
@@ -429,6 +475,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonUser_home">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="User"/>
                           </Properties>
                           <Events>
@@ -437,6 +486,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonSupplier_home">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Supplier"/>
                           </Properties>
                           <Events>
@@ -446,6 +498,11 @@
                       </SubComponents>
                     </Container>
                     <Container class="javax.swing.JPanel" name="jPanel2">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="57" green="a0" red="de" type="rgb"/>
+                        </Property>
+                      </Properties>
 
                       <Layout>
                         <DimensionLayout dim="0">
@@ -511,6 +568,11 @@
                   </SubComponents>
                 </Container>
                 <Container class="javax.swing.JPanel" name="dataBarang">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                    </Property>
+                  </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                       <CardConstraints cardName="card3"/>
@@ -522,7 +584,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="menuHome3" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="mainPanelBrg" max="32767" attributes="0"/>
                           </Group>
                       </Group>
@@ -530,15 +592,17 @@
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="mainPanelBrg" alignment="0" max="32767" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="menuHome3" max="32767" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
+                          <Component id="menuHome3" alignment="0" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
                   <SubComponents>
                     <Container class="javax.swing.JPanel" name="menuHome3">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="57" green="a0" red="de" type="rgb"/>
+                        </Property>
+                      </Properties>
 
                       <Layout>
                         <DimensionLayout dim="0">
@@ -549,7 +613,7 @@
                                       <Component id="buttonBrg_brg" alignment="0" max="32767" attributes="0"/>
                                       <Component id="buttonInsert_brg" alignment="0" max="32767" attributes="0"/>
                                       <Component id="buttonJenis_brg" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="buttonSatuan_brg" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="buttonSatuan_brg" alignment="1" pref="128" max="32767" attributes="0"/>
                                       <Component id="buttonHome_brg" alignment="0" max="32767" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
@@ -577,6 +641,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="buttonBrg_brg">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Data Barang"/>
                           </Properties>
                           <Events>
@@ -585,6 +652,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonInsert_brg">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Insert"/>
                           </Properties>
                           <Events>
@@ -593,6 +663,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonJenis_brg">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Manage Jenis"/>
                           </Properties>
                           <Events>
@@ -601,6 +674,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonSatuan_brg">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Manage Satuan"/>
                           </Properties>
                           <Events>
@@ -609,6 +685,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonHome_brg">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Home"/>
                           </Properties>
                           <Events>
@@ -622,6 +701,11 @@
                       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
                       <SubComponents>
                         <Container class="javax.swing.JPanel" name="Barang">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card2"/>
@@ -631,27 +715,33 @@
                           <Layout>
                             <DimensionLayout dim="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <EmptySpace min="-2" pref="331" max="-2" attributes="0"/>
-                                      <Component id="jLabel2" min="-2" pref="212" max="-2" attributes="0"/>
-                                      <EmptySpace pref="311" max="32767" attributes="0"/>
-                                  </Group>
                                   <Group type="102" alignment="1" attributes="0">
                                       <EmptySpace max="32767" attributes="0"/>
-                                      <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="txtCariBrg" min="-2" pref="185" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                      <Component id="buttonCari_Brg" min="-2" pref="74" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" attributes="0">
-                                              <Component id="jButton19" min="-2" pref="104" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
-                                              <Component id="buttonHapus_brg" min="-2" pref="104" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="331" max="-2" attributes="0"/>
+                                              <Component id="jLabel2" min="-2" pref="212" max="-2" attributes="0"/>
                                           </Group>
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <Component id="txtCariBrg" min="-2" pref="185" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="buttonCari_Brg" min="-2" pref="74" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <Component id="jButton19" min="-2" pref="104" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                                                      <Component id="buttonHapus_brg" min="-2" pref="104" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="jScrollPane1" min="-2" pref="776" max="-2" attributes="0"/>
+                                              </Group>
                                           </Group>
-                                          <Component id="jScrollPane1" alignment="1" min="-2" pref="634" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+                                      <EmptySpace pref="38" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -660,19 +750,19 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                                       <Component id="jLabel2" min="-2" pref="35" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
                                           <Component id="txtCariBrg" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                                           <Component id="buttonCari_Brg" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Component id="jScrollPane1" min="-2" pref="234" max="-2" attributes="0"/>
-                                      <EmptySpace pref="29" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
                                           <Component id="jButton19" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
                                           <Component id="buttonHapus_brg" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                                      <EmptySpace min="64" pref="87" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -709,6 +799,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="jButton19">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="EDIT"/>
                               </Properties>
                               <Events>
@@ -717,6 +810,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonHapus_brg">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="HAPUS"/>
                               </Properties>
                               <Events>
@@ -730,6 +826,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonCari_Brg">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Cari"/>
                               </Properties>
                               <Events>
@@ -739,6 +838,11 @@
                           </SubComponents>
                         </Container>
                         <Container class="javax.swing.JPanel" name="Insert">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card3"/>
@@ -759,7 +863,7 @@
                                           <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel18" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace pref="196" max="32767" attributes="0"/>
+                                      <EmptySpace pref="187" max="32767" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" alignment="1" attributes="0">
                                               <Component id="kd_obat" min="-2" pref="163" max="-2" attributes="0"/>
@@ -818,7 +922,7 @@
                                           <Component id="cbSatuan" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
                                           <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace pref="43" max="32767" attributes="0"/>
+                                      <EmptySpace pref="26" max="32767" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
                                           <Component id="harga" alignment="3" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -907,6 +1011,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonSimpan">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Simpan"/>
                               </Properties>
                               <Events>
@@ -941,6 +1048,11 @@
                           </SubComponents>
                         </Container>
                         <Container class="javax.swing.JPanel" name="ManageJenis">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card4"/>
@@ -982,7 +1094,7 @@
                                               </Group>
                                           </Group>
                                       </Group>
-                                      <EmptySpace pref="95" max="32767" attributes="0"/>
+                                      <EmptySpace pref="86" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -1013,7 +1125,7 @@
                                           </Group>
                                           <Component id="jScrollPane2" min="-2" pref="131" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace pref="168" max="32767" attributes="0"/>
+                                      <EmptySpace pref="151" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -1064,6 +1176,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonTambahJenis">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Tambah"/>
                               </Properties>
                               <Events>
@@ -1072,6 +1187,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="jButton28">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Edit"/>
                               </Properties>
                               <Events>
@@ -1080,6 +1198,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonHapus_jns">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Hapus"/>
                               </Properties>
                               <Events>
@@ -1089,6 +1210,11 @@
                           </SubComponents>
                         </Container>
                         <Container class="javax.swing.JPanel" name="ManageSatuan">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card5"/>
@@ -1131,7 +1257,7 @@
                                               <Component id="jLabel14" min="-2" pref="212" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <EmptySpace pref="141" max="32767" attributes="0"/>
+                                      <EmptySpace pref="132" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -1165,7 +1291,7 @@
                                               <Component id="jScrollPane3" min="-2" pref="121" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <EmptySpace pref="157" max="32767" attributes="0"/>
+                                      <EmptySpace pref="140" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -1216,6 +1342,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonTambah_Satuan">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Tambah"/>
                               </Properties>
                               <Events>
@@ -1224,6 +1353,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="jButton31">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Edit"/>
                               </Properties>
                               <Events>
@@ -1232,6 +1364,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonHapus_satuan">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Hapus"/>
                               </Properties>
                               <Events>
@@ -1245,6 +1380,11 @@
                   </SubComponents>
                 </Container>
                 <Container class="javax.swing.JPanel" name="dataKaryawan">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                    </Property>
+                  </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                       <CardConstraints cardName="card4"/>
@@ -1263,16 +1403,18 @@
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="mainPanelKyw" max="32767" attributes="0"/>
-                          <Group type="102" attributes="0">
-                              <Component id="menuHome4" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          </Group>
+                          <Component id="mainPanelKyw" pref="520" max="32767" attributes="0"/>
+                          <Component id="menuHome4" alignment="0" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
                   <SubComponents>
                     <Container class="javax.swing.JPanel" name="menuHome4">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="57" green="a0" red="de" type="rgb"/>
+                        </Property>
+                      </Properties>
 
                       <Layout>
                         <DimensionLayout dim="0">
@@ -1293,17 +1435,17 @@
                         <DimensionLayout dim="1">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace pref="73" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                                   <Component id="buttonHome_kyw" min="-2" pref="39" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                   <Component id="buttonKyw_kyw" min="-2" pref="39" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                                   <Component id="buttonManageAkun_kyw" min="-2" pref="39" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                                   <Component id="buttonInsert_kyw" min="-2" pref="39" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                                   <Component id="buttonGaji_kyw" min="-2" pref="39" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -1311,6 +1453,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="buttonKyw_kyw">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Data Karyawan"/>
                           </Properties>
                           <Events>
@@ -1319,6 +1464,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonManageAkun_kyw">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Manage Akun"/>
                           </Properties>
                           <Events>
@@ -1327,6 +1475,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonInsert_kyw">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Insert Karyawan"/>
                           </Properties>
                           <Events>
@@ -1335,6 +1486,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonHome_kyw">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Home"/>
                           </Properties>
                           <Events>
@@ -1343,6 +1497,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonGaji_kyw">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Gaji Karyawan"/>
                           </Properties>
                           <Events>
@@ -1356,6 +1513,11 @@
                       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
                       <SubComponents>
                         <Container class="javax.swing.JPanel" name="Karyawan">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card2"/>
@@ -1413,7 +1575,7 @@
                                           <Component id="buttonHapus_kyw" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
                                           <Component id="jButton7" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace pref="148" max="32767" attributes="0"/>
+                                      <EmptySpace pref="131" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -1450,6 +1612,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="jButton7">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Edit"/>
                               </Properties>
                               <Events>
@@ -1458,6 +1623,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonHapus_kyw">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Hapus"/>
                               </Properties>
                               <Events>
@@ -1468,6 +1636,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonCari_kyw">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Cari"/>
                               </Properties>
                               <Events>
@@ -1477,6 +1648,11 @@
                           </SubComponents>
                         </Container>
                         <Container class="javax.swing.JPanel" name="BuatAkun">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card4"/>
@@ -1570,13 +1746,13 @@
                                                       <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                                                   </Group>
                                                   <Group type="102" attributes="0">
-                                                      <EmptySpace max="32767" attributes="0"/>
+                                                      <EmptySpace pref="183" max="32767" attributes="0"/>
                                                       <Component id="buttonTambah_akun" min="-2" pref="35" max="-2" attributes="0"/>
                                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
                                               <Component id="jScrollPane7" min="-2" pref="135" max="-2" attributes="0"/>
-                                              <EmptySpace pref="125" max="32767" attributes="0"/>
+                                              <EmptySpace pref="103" max="32767" attributes="0"/>
                                           </Group>
                                           <Group type="102" alignment="1" attributes="0">
                                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -1636,6 +1812,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonTambah_akun">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Tambah"/>
                               </Properties>
                               <Events>
@@ -1644,6 +1823,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="jButton13">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Edit"/>
                               </Properties>
                               <Events>
@@ -1652,6 +1834,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonHapus_akun">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Hapus"/>
                               </Properties>
                               <Events>
@@ -1675,6 +1860,11 @@
                           </SubComponents>
                         </Container>
                         <Container class="javax.swing.JPanel" name="InsertKaryawan">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card5"/>
@@ -1684,31 +1874,31 @@
                           <Layout>
                             <DimensionLayout dim="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel28" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel30" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel29" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel32" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Group type="102" attributes="0">
-                                              <Component id="perempuan" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="laki" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Component id="id_karyawan" max="32767" attributes="0"/>
-                                          <Component id="cbUser" pref="174" max="32767" attributes="0"/>
-                                          <Component id="nama_karyawan" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="email" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="status" alignment="0" pref="174" max="32767" attributes="0"/>
-                                      </Group>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel28" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel30" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel29" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel32" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="perempuan" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="laki" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="id_karyawan" max="32767" attributes="0"/>
+                                                  <Component id="cbUser" pref="174" max="32767" attributes="0"/>
+                                                  <Component id="nama_karyawan" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="email" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="status" alignment="0" pref="174" max="32767" attributes="0"/>
+                                              </Group>
                                               <EmptySpace min="41" pref="41" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                                   <Group type="102" alignment="0" attributes="0">
@@ -1736,28 +1926,27 @@
                                                       </Group>
                                                   </Group>
                                               </Group>
-                                              <EmptySpace pref="180" max="32767" attributes="0"/>
                                           </Group>
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <EmptySpace max="32767" attributes="0"/>
-                                              <Component id="jButton15" min="-2" pref="95" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="289" max="-2" attributes="0"/>
+                                              <Component id="jLabel26" min="-2" pref="212" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
+                                      <EmptySpace pref="180" max="32767" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="jLabel26" min="-2" pref="212" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="221" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="jButton15" min="-2" pref="95" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
                             <DimensionLayout dim="1">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                                       <Component id="jLabel26" min="-2" pref="35" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
                                           <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
                                           <Component id="id_karyawan" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
@@ -1786,27 +1975,36 @@
                                           <Component id="jLabel36" alignment="3" min="-2" max="-2" attributes="0"/>
                                           <Component id="alamat" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="email" alignment="3" max="32767" attributes="0"/>
-                                          <Component id="jLabel30" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="gaji_pokok" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                                          <Component id="jLabel97" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      </Group>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
                                               <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="gaji_pokok" min="-2" pref="30" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
                                               <Component id="jButton15" min="-2" pref="37" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
                                           </Group>
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="3" attributes="0">
+                                                          <Component id="jLabel30" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="jLabel97" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                                      <Component id="email" min="-2" pref="32" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="32767" attributes="0"/>
                                               <Group type="103" groupAlignment="3" attributes="0">
                                                   <Component id="status" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
                                                   <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
                                               </Group>
+                                              <EmptySpace min="-2" pref="217" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <EmptySpace min="-2" pref="201" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -1932,6 +2130,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="jButton15">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="TAMBAH"/>
                               </Properties>
                               <Events>
@@ -1956,6 +2157,11 @@
                           </SubComponents>
                         </Container>
                         <Container class="javax.swing.JPanel" name="Gaji">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card6"/>
@@ -1965,9 +2171,22 @@
                           <Layout>
                             <DimensionLayout dim="0">
                               <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jLabel37" min="-2" pref="212" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="287" max="-2" attributes="0"/>
+                                  </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="jLabel38" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="txID_Kyw" min="-2" pref="167" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                              <Component id="buttonCariGajiKyw" min="-2" pref="76" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                          </Group>
                                           <Group type="102" attributes="0">
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Component id="txNama_kyw" alignment="0" min="-2" pref="152" max="-2" attributes="0"/>
@@ -1986,40 +2205,38 @@
                                                   <Component id="jLabel46" min="-2" max="-2" attributes="0"/>
                                                   <Component id="txAsuransi" min="-2" pref="152" max="-2" attributes="0"/>
                                               </Group>
-                                              <EmptySpace pref="96" max="32767" attributes="0"/>
+                                              <EmptySpace pref="82" max="32767" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Group type="102" attributes="0">
-                                                      <Component id="jLabel47" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="txMasaKerja_Kyw" min="-2" pref="144" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="jLabel43" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="jLabel42" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel47" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="txBonus" alignment="0" min="-2" pref="144" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace pref="39" max="32767" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="txPemotongan" min="-2" pref="152" max="-2" attributes="0"/>
+                                                      <EmptySpace max="32767" attributes="0"/>
                                                   </Group>
                                                   <Group type="102" attributes="0">
                                                       <Group type="103" groupAlignment="0" attributes="0">
-                                                          <Group type="102" attributes="0">
-                                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                                  <Group type="102" attributes="0">
-                                                                      <Component id="txMasaKerja_Kyw" pref="166" max="32767" attributes="0"/>
-                                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                                                      <Component id="jLabel43" min="-2" max="-2" attributes="0"/>
-                                                                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                                                                  </Group>
-                                                                  <Group type="102" alignment="0" attributes="0">
-                                                                      <Component id="jLabel42" min="-2" max="-2" attributes="0"/>
-                                                                      <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
-                                                                  </Group>
-                                                              </Group>
-                                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                          <Component id="jLabel96" min="-2" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="102" alignment="1" attributes="0">
                                                                   <Component id="jLabel41" min="-2" max="-2" attributes="0"/>
-                                                                  <Component id="txGaji_Pokok" min="-2" pref="152" max="-2" attributes="0"/>
-                                                                  <Component id="jLabel96" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace min="-2" pref="144" max="-2" attributes="0"/>
                                                               </Group>
-                                                          </Group>
-                                                          <Group type="102" alignment="0" attributes="0">
-                                                              <Component id="txBonus" min="-2" pref="152" max="-2" attributes="0"/>
-                                                              <EmptySpace max="32767" attributes="0"/>
-                                                              <Component id="txPemotongan" min="-2" pref="152" max="-2" attributes="0"/>
+                                                              <Group type="102" attributes="0">
+                                                                  <Component id="txGaji_Pokok" min="-2" pref="152" max="-2" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                              </Group>
                                                           </Group>
                                                       </Group>
-                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                                   </Group>
                                               </Group>
                                           </Group>
@@ -2040,20 +2257,6 @@
                                               </Group>
                                           </Group>
                                       </Group>
-                                  </Group>
-                                  <Group type="102" attributes="0">
-                                      <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
-                                      <Component id="jLabel38" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="txID_Kyw" min="-2" pref="167" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="buttonCariGajiKyw" min="-2" pref="76" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="jLabel37" min="-2" pref="212" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="287" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -2113,7 +2316,7 @@
                                               <Component id="buttonHitungGaji" min="-2" pref="34" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <EmptySpace pref="152" max="32767" attributes="0"/>
+                                      <EmptySpace pref="135" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -2139,6 +2342,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonCariGajiKyw">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Cari"/>
                               </Properties>
                               <Events>
@@ -2209,6 +2415,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonHitungGaji">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="HITUNG"/>
                               </Properties>
                               <Events>
@@ -2224,6 +2433,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonSimpanGajiBersih">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="SIMPAN"/>
                               </Properties>
                               <Events>
@@ -2247,6 +2459,11 @@
                   </SubComponents>
                 </Container>
                 <Container class="javax.swing.JPanel" name="Kasir">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                    </Property>
+                  </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                       <CardConstraints cardName="card5"/>
@@ -2265,7 +2482,7 @@
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="mainPanelTr" alignment="0" max="32767" attributes="0"/>
+                          <Component id="mainPanelTr" alignment="0" pref="0" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="menuHome5" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -2275,6 +2492,11 @@
                   </Layout>
                   <SubComponents>
                     <Container class="javax.swing.JPanel" name="menuHome5">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="57" green="a0" red="de" type="rgb"/>
+                        </Property>
+                      </Properties>
 
                       <Layout>
                         <DimensionLayout dim="0">
@@ -2282,8 +2504,7 @@
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="buttonTransaksi_tr" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="buttonQR_tr" alignment="1" pref="131" max="32767" attributes="0"/>
+                                      <Component id="buttonTransaksi_tr" alignment="0" pref="131" max="32767" attributes="0"/>
                                       <Component id="buttonHome_tr" alignment="0" max="32767" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
@@ -2297,9 +2518,7 @@
                                   <Component id="buttonHome_tr" min="-2" pref="39" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                                   <Component id="buttonTransaksi_tr" min="-2" pref="39" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                                  <Component id="buttonQR_tr" min="-2" pref="39" max="-2" attributes="0"/>
-                                  <EmptySpace pref="244" max="32767" attributes="0"/>
+                                  <EmptySpace pref="317" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -2307,22 +2526,20 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="buttonTransaksi_tr">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Transaksi"/>
                           </Properties>
                           <Events>
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonTransaksi_trActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JButton" name="buttonQR_tr">
-                          <Properties>
-                            <Property name="text" type="java.lang.String" value="Buat QR Code"/>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonQR_trActionPerformed"/>
-                          </Events>
-                        </Component>
                         <Component class="javax.swing.JButton" name="buttonHome_tr">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Home"/>
                           </Properties>
                           <Events>
@@ -2336,6 +2553,11 @@
                       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
                       <SubComponents>
                         <Container class="javax.swing.JPanel" name="Transaksi">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card2"/>
@@ -2358,7 +2580,7 @@
                                                       <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
                                                       <Group type="103" groupAlignment="0" attributes="0">
                                                           <Component id="txTampil" min="-2" pref="162" max="-2" attributes="0"/>
-                                                          <Component id="buttonSimpan_Kasir" min="-2" pref="101" max="-2" attributes="0"/>
+                                                          <Component id="buttonSimpan_Kasir" min="-2" pref="135" max="-2" attributes="0"/>
                                                       </Group>
                                                       <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
                                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -2544,10 +2766,10 @@
                                               <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                                               <Component id="txTampil" min="-2" pref="52" max="-2" attributes="0"/>
                                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                              <Component id="buttonSimpan_Kasir" min="-2" pref="34" max="-2" attributes="0"/>
+                                              <Component id="buttonSimpan_Kasir" min="-2" pref="43" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <EmptySpace pref="61" max="32767" attributes="0"/>
+                                      <EmptySpace pref="44" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -2593,6 +2815,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="enter">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="pilih"/>
                               </Properties>
                               <Events>
@@ -2608,6 +2833,9 @@
                               <Events>
                                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txNamaObatActionPerformed"/>
                               </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel57">
                               <Properties>
@@ -2618,6 +2846,9 @@
                               <Events>
                                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txHargaActionPerformed"/>
                               </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel58">
                               <Properties>
@@ -2679,6 +2910,9 @@
                             </Container>
                             <Component class="javax.swing.JButton" name="jButton40">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Tambah"/>
                               </Properties>
                               <Events>
@@ -2687,6 +2921,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="jButton41">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Hapus"/>
                               </Properties>
                             </Component>
@@ -2727,6 +2964,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonSimpan_Kasir">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="SIMPAN"/>
                               </Properties>
                               <Events>
@@ -2735,6 +2975,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="jButton46">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="SCAN QRCODE"/>
                               </Properties>
                               <Events>
@@ -2750,6 +2993,9 @@
                               <Events>
                                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txID_BarangActionPerformed"/>
                               </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+                              </AuxValues>
                             </Component>
                             <Component class="javax.swing.JTextField" name="txtId_user">
                               <Events>
@@ -2763,70 +3009,16 @@
                             </Component>
                           </SubComponents>
                         </Container>
-                        <Container class="javax.swing.JPanel" name="BuatQR">
-                          <Constraints>
-                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
-                              <CardConstraints cardName="card3"/>
-                            </Constraint>
-                          </Constraints>
-
-                          <Layout>
-                            <DimensionLayout dim="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" attributes="0">
-                                              <Component id="jTextField24" min="-2" pref="199" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                                              <Component id="jButton45" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Component id="jLabel62" min="-2" pref="96" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace pref="553" max="32767" attributes="0"/>
-                                  </Group>
-                              </Group>
-                            </DimensionLayout>
-                            <DimensionLayout dim="1">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jButton45" min="-2" pref="29" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-                                              <Component id="jLabel62" min="-2" pref="26" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jTextField24" min="-2" pref="29" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                      <EmptySpace pref="432" max="32767" attributes="0"/>
-                                  </Group>
-                              </Group>
-                            </DimensionLayout>
-                          </Layout>
-                          <SubComponents>
-                            <Component class="javax.swing.JLabel" name="jLabel62">
-                              <Properties>
-                                <Property name="text" type="java.lang.String" value="Cari Data Barang"/>
-                              </Properties>
-                            </Component>
-                            <Component class="javax.swing.JTextField" name="jTextField24">
-                            </Component>
-                            <Component class="javax.swing.JButton" name="jButton45">
-                              <Properties>
-                                <Property name="text" type="java.lang.String" value="Cari"/>
-                              </Properties>
-                            </Component>
-                          </SubComponents>
-                        </Container>
                       </SubComponents>
                     </Container>
                   </SubComponents>
                 </Container>
                 <Container class="javax.swing.JPanel" name="Laporan">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                    </Property>
+                  </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                       <CardConstraints cardName="card6"/>
@@ -2838,7 +3030,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="menuHome8" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="mainPanelLap" max="32767" attributes="0"/>
                           </Group>
                       </Group>
@@ -2846,27 +3038,32 @@
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="menuHome8" max="32767" attributes="0"/>
-                          <Component id="mainPanelLap" alignment="0" max="32767" attributes="0"/>
+                          <Component id="mainPanelLap" alignment="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
                   <SubComponents>
                     <Container class="javax.swing.JPanel" name="menuHome8">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="57" green="a0" red="de" type="rgb"/>
+                        </Property>
+                      </Properties>
 
                       <Layout>
                         <DimensionLayout dim="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="buttonLapUtang_lap" alignment="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="buttonLapBeli_lap" alignment="0" pref="135" max="32767" attributes="0"/>
+                                      <Component id="buttonLapJual_lap" alignment="0" max="32767" attributes="0"/>
                                       <Component id="buttonLapBrg_lap" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="buttonLapJual_lap" alignment="1" max="32767" attributes="0"/>
                                       <Component id="buttonHome_lap" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="buttonLapBeli_lap" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="buttonKas_lap" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="buttonLapUtang_lap" alignment="0" pref="174" max="32767" attributes="0"/>
+                                      <Component id="buttonKas_lap" max="32767" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="18" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -2885,7 +3082,7 @@
                                   <Component id="buttonLapUtang_lap" min="-2" pref="39" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                                   <Component id="buttonKas_lap" min="-2" pref="39" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
+                                  <EmptySpace pref="85" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -2893,6 +3090,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="buttonLapBrg_lap">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Laporan Barang"/>
                           </Properties>
                           <Events>
@@ -2901,6 +3101,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonLapJual_lap">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Laporan Penjualan"/>
                           </Properties>
                           <Events>
@@ -2909,6 +3112,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonHome_lap">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Home"/>
                           </Properties>
                           <Events>
@@ -2917,6 +3123,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonLapBeli_lap">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Laporan Pembelian"/>
                           </Properties>
                           <Events>
@@ -2925,6 +3134,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonKas_lap">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Laporan KAS"/>
                           </Properties>
                           <Events>
@@ -2933,6 +3145,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonLapUtang_lap">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Laporan Utang Piutang"/>
                           </Properties>
                           <Events>
@@ -2942,111 +3157,20 @@
                       </SubComponents>
                     </Container>
                     <Container class="javax.swing.JPanel" name="mainPanelLap">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                        </Property>
+                      </Properties>
 
                       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
                       <SubComponents>
-                        <Container class="javax.swing.JPanel" name="LapBarang">
-                          <Constraints>
-                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
-                              <CardConstraints cardName="card2"/>
-                            </Constraint>
-                          </Constraints>
-
-                          <Layout>
-                            <DimensionLayout dim="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="txCariLapBrg" min="-2" pref="185" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="jButton59" min="-2" pref="74" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="jButton60" min="-2" pref="105" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" attributes="0">
-                                                  <EmptySpace min="-2" pref="237" max="-2" attributes="0"/>
-                                                  <Component id="jLabel63" min="-2" pref="212" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
-                                                  <Component id="jScrollPane9" min="-2" pref="714" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                      </Group>
-                                      <EmptySpace pref="33" max="32767" attributes="0"/>
-                                  </Group>
-                              </Group>
-                            </DimensionLayout>
-                            <DimensionLayout dim="1">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                                      <Component id="jLabel63" min="-2" pref="35" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="txCariLapBrg" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                                          <Component id="jButton59" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="jScrollPane9" min="-2" pref="194" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-                                      <Component id="jButton60" min="-2" pref="39" max="-2" attributes="0"/>
-                                      <EmptySpace pref="108" max="32767" attributes="0"/>
-                                  </Group>
-                              </Group>
-                            </DimensionLayout>
-                          </Layout>
-                          <SubComponents>
-                            <Component class="javax.swing.JLabel" name="jLabel63">
-                              <Properties>
-                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                                  <Font name="SansSerif" size="24" style="1"/>
-                                </Property>
-                                <Property name="text" type="java.lang.String" value="Laporan Barang"/>
-                              </Properties>
-                            </Component>
-                            <Component class="javax.swing.JTextField" name="txCariLapBrg">
-                            </Component>
-                            <Component class="javax.swing.JButton" name="jButton59">
-                              <Properties>
-                                <Property name="text" type="java.lang.String" value="Cari"/>
-                              </Properties>
-                              <Events>
-                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton59ActionPerformed"/>
-                              </Events>
-                            </Component>
-                            <Container class="javax.swing.JScrollPane" name="jScrollPane9">
-                              <AuxValues>
-                                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-                              </AuxValues>
-
-                              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-                              <SubComponents>
-                                <Component class="javax.swing.JTable" name="LapBrg">
-                                  <Properties>
-                                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                                      <Table columnCount="4" rowCount="4">
-                                        <Column editable="true" title="Title 1" type="java.lang.Object"/>
-                                        <Column editable="true" title="Title 2" type="java.lang.Object"/>
-                                        <Column editable="true" title="Title 3" type="java.lang.Object"/>
-                                        <Column editable="true" title="Title 4" type="java.lang.Object"/>
-                                      </Table>
-                                    </Property>
-                                  </Properties>
-                                </Component>
-                              </SubComponents>
-                            </Container>
-                            <Component class="javax.swing.JButton" name="jButton60">
-                              <Properties>
-                                <Property name="text" type="java.lang.String" value="CETAK"/>
-                              </Properties>
-                            </Component>
-                          </SubComponents>
-                        </Container>
                         <Container class="javax.swing.JPanel" name="LapPenjualan">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card3"/>
@@ -3067,7 +3191,7 @@
                                               <Component id="jScrollPane10" min="-2" pref="694" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <EmptySpace pref="43" max="32767" attributes="0"/>
+                                      <EmptySpace pref="70" max="32767" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="1" attributes="0">
                                       <EmptySpace max="32767" attributes="0"/>
@@ -3091,7 +3215,7 @@
                                   <Group type="102" alignment="1" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Component id="jLabel64" min="-2" pref="35" max="-2" attributes="0"/>
-                                      <EmptySpace pref="50" max="32767" attributes="0"/>
+                                      <EmptySpace pref="33" max="32767" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
                                           <Component id="txtCariLapJual" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
                                           <Component id="buttonCariLapJual" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
@@ -3131,6 +3255,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonCariLapJual">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Cari"/>
                               </Properties>
                               <Events>
@@ -3147,6 +3274,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="jButton48">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="CETAK"/>
                               </Properties>
                               <Events>
@@ -3156,6 +3286,11 @@
                           </SubComponents>
                         </Container>
                         <Container class="javax.swing.JPanel" name="LapPembelian">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card4"/>
@@ -3168,16 +3303,13 @@
                                   <Group type="102" attributes="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" attributes="0">
-                                              <EmptySpace max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="443" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="1" attributes="0">
-                                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                                      <Component id="jScrollPane11" alignment="0" min="-2" pref="779" max="-2" attributes="0"/>
-                                                      <Group type="102" alignment="1" attributes="0">
-                                                          <Component id="txCariLapBeli" min="-2" pref="211" max="-2" attributes="0"/>
-                                                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-                                                          <Component id="buttonCariLapBeli" min="-2" pref="72" max="-2" attributes="0"/>
-                                                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
-                                                      </Group>
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <Component id="txCariLapBeli" min="-2" pref="211" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                                      <Component id="buttonCariLapBeli" min="-2" pref="72" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                                                   </Group>
                                                   <Component id="jButton50" alignment="1" min="-2" pref="105" max="-2" attributes="0"/>
                                               </Group>
@@ -3186,24 +3318,28 @@
                                               <EmptySpace min="-2" pref="267" max="-2" attributes="0"/>
                                               <Component id="jLabel65" min="-2" pref="249" max="-2" attributes="0"/>
                                           </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                              <Component id="jScrollPane11" min="-2" pref="779" max="-2" attributes="0"/>
+                                          </Group>
                                       </Group>
-                                      <EmptySpace pref="24" max="32767" attributes="0"/>
+                                      <EmptySpace pref="36" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
                             <DimensionLayout dim="1">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace pref="43" max="32767" attributes="0"/>
+                                      <EmptySpace pref="26" max="32767" attributes="0"/>
                                       <Component id="jLabel65" min="-2" pref="35" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
                                           <Component id="txCariLapBeli" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
                                           <Component id="buttonCariLapBeli" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                                       <Component id="jScrollPane11" min="-2" pref="180" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                                       <Component id="jButton50" min="-2" pref="44" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
                                   </Group>
@@ -3223,6 +3359,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonCariLapBeli">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Cari"/>
                               </Properties>
                               <Events>
@@ -3252,12 +3391,23 @@
                             </Container>
                             <Component class="javax.swing.JButton" name="jButton50">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="CETAK"/>
                               </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton50ActionPerformed"/>
+                              </Events>
                             </Component>
                           </SubComponents>
                         </Container>
                         <Container class="javax.swing.JPanel" name="LapUtang">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card5"/>
@@ -3268,12 +3418,12 @@
                             <DimensionLayout dim="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace pref="91" max="32767" attributes="0"/>
+                                      <EmptySpace pref="104" max="32767" attributes="0"/>
                                       <Group type="103" groupAlignment="1" attributes="0">
                                           <Component id="jScrollPane12" min="-2" pref="665" max="-2" attributes="0"/>
                                           <Component id="jButton52" min="-2" pref="105" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace pref="57" max="32767" attributes="0"/>
+                                      <EmptySpace pref="71" max="32767" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="1" attributes="0">
                                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -3285,7 +3435,7 @@
                             <DimensionLayout dim="1">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace pref="46" max="32767" attributes="0"/>
+                                      <EmptySpace pref="29" max="32767" attributes="0"/>
                                       <Component id="jLabel66" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
                                       <Component id="jScrollPane12" min="-2" pref="180" max="-2" attributes="0"/>
@@ -3328,12 +3478,23 @@
                             </Container>
                             <Component class="javax.swing.JButton" name="jButton52">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="CETAK"/>
                               </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton52ActionPerformed"/>
+                              </Events>
                             </Component>
                           </SubComponents>
                         </Container>
                         <Container class="javax.swing.JPanel" name="KasBesar">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card6"/>
@@ -3344,14 +3505,7 @@
                             <DimensionLayout dim="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
-                                      <Component id="buttonTambahKas" min="-2" pref="133" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="jButton62" min="-2" pref="133" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace pref="59" max="32767" attributes="0"/>
+                                      <EmptySpace pref="86" max="32767" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" alignment="1" attributes="0">
                                               <Component id="jLabel67" min="-2" pref="239" max="-2" attributes="0"/>
@@ -3364,7 +3518,14 @@
                                               <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
                                           </Group>
                                           <Group type="102" alignment="1" attributes="0">
-                                              <Component id="jScrollPane13" min="-2" pref="706" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="buttonTambahKas" min="-2" pref="115" max="-2" attributes="0"/>
+                                                      <EmptySpace max="32767" attributes="0"/>
+                                                      <Component id="jButton62" min="-2" pref="111" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="jScrollPane13" min="-2" pref="706" max="-2" attributes="0"/>
+                                              </Group>
                                               <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
@@ -3376,7 +3537,7 @@
                                   <Group type="102" alignment="1" attributes="0">
                                       <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                                       <Component id="jLabel67" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace pref="9" max="32767" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
                                           <Component id="CariLapKas" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
                                           <Component id="jButton61" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
@@ -3406,6 +3567,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="jButton61">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Cari"/>
                               </Properties>
                               <Events>
@@ -3435,11 +3599,20 @@
                             </Container>
                             <Component class="javax.swing.JButton" name="jButton62">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="CETAK"/>
                               </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton62ActionPerformed"/>
+                              </Events>
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonTambahKas">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Tambah "/>
                               </Properties>
                               <Events>
@@ -3459,7 +3632,7 @@
                             <DimensionLayout dim="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace pref="307" max="32767" attributes="0"/>
+                                      <EmptySpace pref="334" max="32767" attributes="0"/>
                                       <Component id="jLabel113" min="-2" pref="212" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="294" max="-2" attributes="0"/>
                                   </Group>
@@ -3503,7 +3676,7 @@
                                               <Component id="jLabel104" alignment="0" min="-2" max="-2" attributes="0"/>
                                               <Component id="jLabel105" alignment="0" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace pref="725" max="32767" attributes="0"/>
+                                          <EmptySpace pref="752" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
@@ -3667,11 +3840,131 @@
                             </Component>
                           </SubComponents>
                         </Container>
+                        <Container class="javax.swing.JPanel" name="LapBarang">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                              <CardConstraints cardName="card2"/>
+                            </Constraint>
+                          </Constraints>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="txCariLapBrg" min="-2" pref="185" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jButton59" min="-2" pref="74" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jButton60" min="-2" pref="105" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="-2" pref="237" max="-2" attributes="0"/>
+                                                  <Component id="jLabel63" min="-2" pref="212" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                                                  <Component id="jScrollPane9" min="-2" pref="714" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace pref="60" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                      <Component id="jLabel63" min="-2" pref="35" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="txCariLapBrg" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="jButton59" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane9" min="-2" pref="194" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                      <Component id="jButton60" min="-2" pref="39" max="-2" attributes="0"/>
+                                      <EmptySpace pref="91" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabel63">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="SansSerif" size="24" style="1"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="Laporan Barang"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="txCariLapBrg">
+                            </Component>
+                            <Component class="javax.swing.JButton" name="jButton59">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="Cari"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton59ActionPerformed"/>
+                              </Events>
+                            </Component>
+                            <Container class="javax.swing.JScrollPane" name="jScrollPane9">
+                              <AuxValues>
+                                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                              </AuxValues>
+
+                              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                              <SubComponents>
+                                <Component class="javax.swing.JTable" name="LapBrg">
+                                  <Properties>
+                                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                                      <Table columnCount="4" rowCount="4">
+                                        <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                                        <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                                        <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                                        <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                                      </Table>
+                                    </Property>
+                                  </Properties>
+                                </Component>
+                              </SubComponents>
+                            </Container>
+                            <Component class="javax.swing.JButton" name="jButton60">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="CETAK"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton60ActionPerformed"/>
+                              </Events>
+                            </Component>
+                          </SubComponents>
+                        </Container>
                       </SubComponents>
                     </Container>
                   </SubComponents>
                 </Container>
                 <Container class="javax.swing.JPanel" name="Supplier">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                    </Property>
+                  </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                       <CardConstraints cardName="card8"/>
@@ -3690,13 +3983,18 @@
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="menuHome7" max="32767" attributes="0"/>
                           <Component id="mainPanelSupplier" alignment="0" max="32767" attributes="0"/>
+                          <Component id="menuHome7" alignment="0" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
                   <SubComponents>
                     <Container class="javax.swing.JPanel" name="menuHome7">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="57" green="a0" red="de" type="rgb"/>
+                        </Property>
+                      </Properties>
 
                       <Layout>
                         <DimensionLayout dim="0">
@@ -3716,13 +4014,13 @@
                         <DimensionLayout dim="1">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
                                   <Component id="buttonHome_supp" min="-2" pref="39" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                                   <Component id="buttonDataBeli_supp" min="-2" pref="39" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                                   <Component id="buttonTambahBeli_supp" min="-2" pref="39" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                                   <Component id="buttonManage_supp" min="-2" pref="39" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
                               </Group>
@@ -3732,6 +4030,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="buttonDataBeli_supp">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Data Pembelian"/>
                           </Properties>
                           <Events>
@@ -3740,6 +4041,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonHome_supp">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Home"/>
                           </Properties>
                           <Events>
@@ -3748,6 +4052,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonTambahBeli_supp">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Tambah Pembelian"/>
                           </Properties>
                           <Events>
@@ -3756,6 +4063,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonManage_supp">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Manage Supplier"/>
                           </Properties>
                           <Events>
@@ -3769,6 +4079,11 @@
                       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
                       <SubComponents>
                         <Container class="javax.swing.JPanel" name="Pembelian">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card2"/>
@@ -3792,14 +4107,14 @@
                                               <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                                           </Group>
                                           <Group type="102" alignment="1" attributes="0">
-                                              <Component id="jLabel75" min="-2" pref="249" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="310" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="102" alignment="1" attributes="0">
                                               <Component id="buttonEdit_Pembelian" min="-2" pref="119" max="-2" attributes="0"/>
                                               <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                                               <Component id="buttonHapus_Pembelian" min="-2" pref="119" max="-2" attributes="0"/>
                                               <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="jLabel75" min="-2" pref="249" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="278" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
@@ -3808,7 +4123,7 @@
                             <DimensionLayout dim="1">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace pref="43" max="32767" attributes="0"/>
+                                      <EmptySpace pref="26" max="32767" attributes="0"/>
                                       <Component id="jLabel75" min="-2" pref="35" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
@@ -3861,6 +4176,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonCariPembelian">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Cari"/>
                               </Properties>
                               <Events>
@@ -3869,6 +4187,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonEdit_Pembelian">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="EDIT"/>
                               </Properties>
                               <Events>
@@ -3877,12 +4198,20 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonHapus_Pembelian">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="HAPUS"/>
                               </Properties>
                             </Component>
                           </SubComponents>
                         </Container>
                         <Container class="javax.swing.JPanel" name="TambahPembelian">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card3"/>
@@ -3961,7 +4290,7 @@
                                           <Component id="cbSuppBeli" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
                                           <Component id="jLabel77" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace pref="31" max="32767" attributes="0"/>
+                                      <EmptySpace pref="14" max="32767" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
                                           <Component id="cbObatBeli" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
                                           <Component id="jLabel98" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -4068,6 +4397,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonSimpanBeli">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Simpan"/>
                               </Properties>
                               <Events>
@@ -4099,6 +4431,11 @@
                           </SubComponents>
                         </Container>
                         <Container class="javax.swing.JPanel" name="ManageSupplier">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card4"/>
@@ -4192,7 +4529,7 @@
                                       <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" attributes="0">
-                                              <EmptySpace min="0" pref="57" max="32767" attributes="0"/>
+                                              <EmptySpace min="0" pref="40" max="32767" attributes="0"/>
                                               <Component id="jButton29" min="-2" pref="35" max="-2" attributes="0"/>
                                               <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                                               <Component id="buttonHapus_Supp" min="-2" pref="35" max="-2" attributes="0"/>
@@ -4259,6 +4596,9 @@
                             </Container>
                             <Component class="javax.swing.JButton" name="buttonTambahSupp">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Tambah"/>
                               </Properties>
                               <Events>
@@ -4267,6 +4607,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonHapus_Supp">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Hapus"/>
                               </Properties>
                               <Events>
@@ -4275,6 +4618,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="jButton29">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Edit"/>
                               </Properties>
                               <Events>
@@ -4309,6 +4655,11 @@
                   </SubComponents>
                 </Container>
                 <Container class="javax.swing.JPanel" name="User">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                    </Property>
+                  </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                       <CardConstraints cardName="card7"/>
@@ -4334,6 +4685,11 @@
                   </Layout>
                   <SubComponents>
                     <Container class="javax.swing.JPanel" name="menuHome6">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="57" green="a0" red="de" type="rgb"/>
+                        </Property>
+                      </Properties>
 
                       <Layout>
                         <DimensionLayout dim="0">
@@ -4352,11 +4708,11 @@
                         <DimensionLayout dim="1">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
-                                  <Component id="buttonHome_user" min="-2" pref="39" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                                  <Component id="buttonHome_user" min="-2" pref="39" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                                   <Component id="buttonData_user" min="-2" pref="39" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                                   <Component id="buttonUbahPass_user" min="-2" pref="39" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
                               </Group>
@@ -4366,6 +4722,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JButton" name="buttonData_user">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Data User"/>
                           </Properties>
                           <Events>
@@ -4374,6 +4733,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonUbahPass_user">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Ubah Password"/>
                           </Properties>
                           <Events>
@@ -4382,6 +4744,9 @@
                         </Component>
                         <Component class="javax.swing.JButton" name="buttonHome_user">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
                             <Property name="text" type="java.lang.String" value="Home"/>
                           </Properties>
                           <Events>
@@ -4395,6 +4760,11 @@
                       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
                       <SubComponents>
                         <Container class="javax.swing.JPanel" name="BioUser">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card2"/>
@@ -4521,7 +4891,7 @@
                                           </Group>
                                           <Component id="txtStatus" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace pref="261" max="32767" attributes="0"/>
+                                      <EmptySpace pref="244" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -4632,6 +5002,11 @@
                           </SubComponents>
                         </Container>
                         <Container class="javax.swing.JPanel" name="UbahPass">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b0" green="d8" red="e0" type="rgb"/>
+                            </Property>
+                          </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                               <CardConstraints cardName="card3"/>
@@ -4693,7 +5068,7 @@
                                       </Group>
                                       <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                                       <Component id="buttonSimpan_pass" min="-2" pref="38" max="-2" attributes="0"/>
-                                      <EmptySpace pref="196" max="32767" attributes="0"/>
+                                      <EmptySpace pref="179" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -4733,6 +5108,9 @@
                             </Component>
                             <Component class="javax.swing.JButton" name="buttonSimpan_pass">
                               <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="57" green="a0" red="de" type="rgb"/>
+                                </Property>
                                 <Property name="text" type="java.lang.String" value="Simpan"/>
                               </Properties>
                               <Events>
